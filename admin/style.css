@@ -1,0 +1,174 @@
+body {
+    padding-bottom: 40px;
+    background-color: #222;
+}
+.containerForm
+{
+    margin-top:80px;
+}
+h2
+{
+    font-family:Tahoma, Geneva, sans-serif;
+    color: #008000;
+    text-align: center;
+}
+.form-container
+{
+    width:500px;
+    margin:0 auto;
+    background:#fff;
+    padding: 25px;
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.4);
+    border-radius:3px;
+}
+button
+{
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:25px;
+}
+
+label
+{
+    font-family:Tahoma, Geneva, sans-serif;
+    color:.00a9d1;
+}
+
+.content
+{
+     margin:0 auto;
+     margin-top:100px;
+     text-align:center;
+     font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+     font-size:55px;
+     color:#00a2d1;
+}
+.content p
+{
+     font-size:30px;
+     color:#004567;
+     width:800px;
+     margin:0 auto;
+}
+.x {
+    border: 2px solid black;
+    color: black; 
+    background-color: #49b203;
+    float: right;
+    border-radius: 5px;
+}
+h3 {
+    max-width: 92%;
+}
+#logout {
+    position: relative;
+    top: 110px;
+    height: 160px;
+}
+.input, .submit, textarea {
+    border: 2px solid black;
+    color: white; 
+    background-color: #49b203;
+    border-radius: 5px;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    outline: none;
+}
+.submit {
+    background-color: black;
+    border: 2px solid #49b203;
+}
+::-webkit-input-placeholder {
+    color: white;
+}
+:-moz-placeholder { 
+    color: white;
+    opacity: 1;
+}
+::-moz-placeholder { 
+    color: white;
+    opacity: 1;
+}
+:-ms-input-placeholder { 
+    color: white;
+}
+::-ms-placeholder {
+    color: white;
+}
+::placeholder {
+    color: white;
+}
+#formaNovost ::-webkit-input-placeholder {
+    color: slategray;
+}
+#formaNovost :-moz-placeholder {
+    color: slategray;
+}
+#formaNovost ::-moz-placeholder {
+    color: slategray;
+}
+#formaNovost :-ms-input-placeholder {
+    color: slategray;
+}
+#formaNovost ::-ms-placeholder {
+    color: slategray;
+}
+#formaNovost ::placeholder {
+    color: slategray;
+}
+#formaNovost input, #formaNovost textarea {
+    background-color: white;
+    color: black;
+}
+#formaNovost .submit {
+    border: black 2px solid;
+    color: black;
+}
+.novost2 {
+    border: 0px;
+}
+.image-upload {
+    margin-left: auto;
+    margin-right: auto;
+}
+.image-upload > input
+{
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+#slikaDodaj {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+	outline: 0;
+}
+#imageform {
+    text-align: center;
+}
+
+@media screen and (min-width: 991px) {
+    .height { height: 320px; margin-bottom: 50px;}
+}
+
+@media screen and (max-width: 991px) {
+    .form-container { position: relative; top: -135px; }
+    .containerForm { height: 300px; }
+    #logout { position: relative; top: -12px; height: 40px; }
+}
+
+@media screen and (max-width: 600px) {
+    .form-container { width: 80%; }
+    #logout { position: relative; top: -11px; height: 40px; }
+}
+
+@media screen and (max-width: 490px) {
+    h2 { font-size: 30px; }
+    #logout { position: relative; top: -5px; height: 40px; }    
+    .tittle { padding-right: 12px; }
+    .tittle2 { padding-right: 0px; }
+}
+
+
