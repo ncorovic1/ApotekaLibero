@@ -27,7 +27,7 @@
 	<link rel="stylesheet" href="files/css/style.css">
 	<link rel="stylesheet" href="files/rs-plugin/css/settings.css">
 </head>
-    
+ <!-- coment -->   
 <body>
     
 	<div class="sidebar-menu-container" id="sidebar-menu-container">
