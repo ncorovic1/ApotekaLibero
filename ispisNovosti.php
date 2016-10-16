@@ -20,6 +20,7 @@
             }
         }
     }
+	//coment
     catch(PDOException $e) {
         echo $e->getMessage();
     }
